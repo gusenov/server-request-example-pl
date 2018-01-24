@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Server: Combust/Plack (Perl)
+Content-Type: text/html; charset=utf-8
+Last-Modified: Tue, 23 Jan 2018 14:21:19 GMT
+P3P: CP="There's no P3P policy. Learn why here: http://www.w3.org/P3P/"
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1
+Strict-Transport-Security: max-age=15768000
+Via: 1.1 varnish
+Fastly-Debug-Digest: a807f43bddca3df31053474e61630243033bfb2df9022889b1b33e9536938029
+Content-Length: 12535
+Accept-Ranges: bytes
+Date: Tue, 23 Jan 2018 14:54:18 GMT
+Via: 1.1 varnish
+Age: 1979
+Connection: close
+X-Served-By: cache-lax8630-LAX, cache-hhn1525-HHN
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 1
+X-Timer: S1516719259.776330,VS0,VE5
+
