@@ -56,16 +56,16 @@ sub Request {
  # Третий параметр - путь к файлу, который мы хотим открыть.
  # Когда эта функция вызывается, она присваивает скалярной переменной специальный ключ,
  # который называется указателем файла (file-handle).
-  
- while ($response_line = <$sock>) {
-  print $resource_header_file_handler $response_line;
-  if ("$response_line" eq "\r\n") {
+ 
+ while (<$sock>) {
+  print $resource_header_file_handler "$_";
+  if ("$_" eq "\r\n") {
    last;
   }
  }
 
- while ($response_line = <$sock>) {
-  print $resource_content_file_handler $response_line;
+ while (<$sock>) {
+  print $resource_content_file_handler "$_";
  }
 
  close $resource_header_file_handler;
